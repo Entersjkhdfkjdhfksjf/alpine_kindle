@@ -18,7 +18,7 @@ apk upgrade
 cat /etc/alpine-release
 apk add xorg-server-xephyr xwininfo xdotool xinput dbus-x11 sudo bash nano git neofetch
 apk add desktop-file-utils gtk-engines consolekit gtk-murrine-engine thunar marco gnome-themes-extra
-apk add xfce4
+apk add xfce4 thunar
 apk add \$(apk search -q ttf- | grep -v '\-doc')
 apk add onboard chromium
 adduser alpine -D
